@@ -26,5 +26,11 @@ namespace SunSeaSurgery.Controllers
 
             return View();
         }
+
+        public ActionResult Country()
+        {
+            ViewBag.Message = "Our Destinations";
+            return View();
+        }
     }
 }
